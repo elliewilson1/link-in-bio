@@ -5,12 +5,23 @@
   </head>
   <body>
     <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
       .main-container {
         padding: 20px; 
         border: solid red 5px; 
         margin: 30px;
       }
-      
+
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
       .image-row {
         padding: 10px;
         border: dotted red 3px;
@@ -21,6 +32,13 @@
         padding: 10px;
         border: solid blue 2px;
         color: blueviolet;
+      }
+
+      .thumbnail {
+        width: 72px;
+        height: 72px;
+        border-radius: 72px;
+        object-fit: cover;
       }
 
       .social-icons-row {
@@ -38,7 +56,7 @@
 <div class="main-container">
 
   <div class="image-row">
-    <img src="/thumbnails/ellie.jpg" alt="ellie">
+    <img class="avatar-image" src="/thumbnails/ellie.jpg" alt="ellie">
   </div>
 
   <div class="name-row">
@@ -52,31 +70,31 @@
   </div>
 
   <div class="links-row">
-    <img src="/thumbnails/candy_cane_kiss_cookie.png">
+    <img class="thumbnail" src="/thumbnails/candy_cane_kiss_cookie.png">
     <a href="https://www.recipegirl.com/candy-cane-kiss-cookies/#wprm-recipe-container-48805" target="_blank">
       Candy Cane Kiss Cookie Recipe
     </a>
   </div>
   <div class="links-row">
-    <img src="/thumbnails/peanut_butter_blossom_cookie.png">
+    <img class="thumbnail" src="/thumbnails/peanut_butter_blossom_cookie.png">
     <a href="https://preppykitchen.com/peanut-butter-blossoms/#recipe" target="_blank">
       Peanut Butter Blossom Cookie Recipe
     </a>
   </div>
   <div class="links-row">
-    <img src="/thumbnails/chocolatechipcookie.png">
+    <img class="thumbnail" src="/thumbnails/chocolatechipcookie.png">
     <a href="https://cambreabakes.com/espresso-chocolate-chip-cookies-recipe/#recipe" target="_blank">
       Espresso Chocolate Chip Cookie Recipe
     </a>
   </div>
   <div class="links-row">
-    <img src="/thumbnails/snickerdoodle_cookie.png">
+    <img class="thumbnail" src="/thumbnails/snickerdoodle_cookie.png">
     <a href="https://saltandbaker.com/wprm_print/snickerdoodle-recipe" target="_blank">
       Snickerdoodle Cookie Recipe
     </a>
   </div>
   <div class="links-row">
-    <img src="/thumbnails/sugar_cookie.png">
+    <img class="thumbnail" src="/thumbnails/sugar_cookie.png">
     <a href="https://cookingwithkarli.com/copycat-insomnia-sugar-cookie-recipe/#wprm-recipe-container-16270" target="_blank">
       Sugar Cookie Recipe
     </a>

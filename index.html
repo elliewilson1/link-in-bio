@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Questrial&display=swap" rel="stylesheet">
+  
   <body>
     <style>
+      /*
       * {
         border: 1px red dashed;
       }
+      */
 
       html {
         min-height: 100%;
@@ -22,7 +29,9 @@
         color: rgba(255, 255, 255, 1.0);
         a {
           color: rgba(255, 255, 255, 1.0);
+          text-decoration: none;
         }
+        font-family: "Alegreya";
       }
 
       .main-container {
@@ -31,10 +40,10 @@
       }
 
       .avatar-image {
-        width: 128px;
-        height: 128px;
+        width: 156px;
+        height: 156px;
         object-fit: cover;
-        border-radius: 128px;
+        border-radius: 156px;
       }
 
       .image-row {
@@ -45,6 +54,9 @@
       .name-row {
         margin-bottom: 30px;
         text-align: center;
+        font-family: "Questrial";
+        font-size: 36px;
+        font-weight: 900;
       }
 
       .thumbnail {
@@ -59,10 +71,14 @@
         display: flex;
         align-items: center;
         background-color: rgba(149, 123, 123, 0.5);
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(122, 32, 122, 0, 0.5);
       }
 
       .social-icons-row {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         display: flex;
         justify-content: space-around;
       }
@@ -84,13 +100,13 @@
 
   <div class="social-icons-row">
     <a href="https://github.com/elliewilson1" target="_blank">
-      GitHub
+      <i class="fa-brands fa-square-github fa-3x"></i>
     </a>
     <a href="https://www.pinterest.com/ellie7186/_profile/" target="_blank">
-      Pinterest
+      <i class="fa-brands fa-square-pinterest fa-3x"></i>
     </a>
     <a href="https://www.instagram.com/notelliewilson/" target="_blank">
-      Instagram
+      <i class="fa-brands fa-square-instagram fa-3x"></i>
     </a>
   </div>
 
